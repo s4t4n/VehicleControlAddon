@@ -2350,8 +2350,6 @@ function vehicleControlAddon:onUpdate(dt, isActiveForInput, isActiveForInputIgno
 	--*******************************************************************
 	
 	-- reduce automatic brake force above 1 m/s^2
-	-- disabled for now until mogil is forward in his programming - by sbsh, because it overrides cvt addon.
-	
 	-- if self.spec_motorized ~= nil and self.spec_motorized.motor ~= nil and self.spec_motorized.motor.lowBrakeForceScale ~= nil then
 		-- if self:getIsVehicleControlledByPlayer() and not ( 0.99 < self.spec_vca.brakeForce and self.spec_vca.brakeForce < 1.01 ) then      
 			-- if self.spec_vca.origLowBrakeForceScale == nil then 
